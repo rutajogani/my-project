@@ -1,19 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project 1</title>
+    <script src="script .js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="bg-[#171a21]">
-    <header class="bg-[#EDEFF1]">
-        <h1 class="text-center">Our College</h1>
+  </head>
+  <body class="bg-[#171a21]">
+    <header class="bg-white rounded-xl , text-center">
+      <p class="text-2xl">Our College</p>
     </header>
-    <div class="bg-[#EDEFF1]">
-        <div class="box">
-            
-        </div>
+
+    <div class="bg-white rounded-lg shadow-md p-5 w-72">
+      <h2 class="text-xl font-bold mb-3 , ">Notes</h2>
+
+      <p id="noteText" class="text-gray-600 mb-4">
+        Click the button to see notes
+      </p>
+
+      <button
+        onclick="showNote()"
+        class="bg-gray-500 text-white px-8 py-2 rounded"
+      >
+        Open Note
+      </button>
     </div>
-</body>
+  </body>
 </html>
