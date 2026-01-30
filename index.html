@@ -13,7 +13,7 @@
     </header>
 
     <div class="bg-white rounded-lg shadow-md p-5 w-72">
-      <h2 class="text-xl font-bold mb-3 , ">Notes</h2>
+      <h2 class="text-xl font-bold mb-3 ">Notes</h2>
 
       <p id="noteText" class="text-gray-600 mb-4">
         Click the button to see notes
@@ -21,10 +21,28 @@
 
       <button
         onclick="showNote()"
-        class="bg-gray-500 text-white px-8 py-2 rounded"
+        class="bg-gray-500 text-white px-8 py-2 rounded , border-2 border-[#121212]"
       >
         Open Note
       </button>
     </div>
+
+
+    <div class="bg-white rounded-lg shadow-md p-5 w-72">
+      <h2 class="text-xl font-bold mb-3 ">Todo List</h2>
+
+      <p id="noteText" class="text-gray-600 mb-4">
+        Click the button to see you List
+      </p>
+
+       <button
+        id="time"
+        onclick="addTodo()"
+        class="bg-gray-500 text-white px-8 py-2 rounded , border-2 border-[#121212]"
+      >
+        Open Todo List
+      </button>
+    </div>
+
   </body>
 </html>
