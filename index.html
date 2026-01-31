@@ -7,42 +7,45 @@
     <script src="script .js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-[#171a21]">
-    <header class="bg-white rounded-xl , text-center">
+  <body class="bg-[#0b1220]">
+    <header class="bg-white rounded-lg text-center">
       <p class="text-2xl">Our College</p>
     </header>
 
+    <br />
+
     <div class="bg-white rounded-lg shadow-md p-5 w-72">
-      <h2 class="text-xl font-bold mb-3 ">Notes</h2>
+      <h2 class="text-xl font-bold mb-3">Notes</h2>
 
       <p id="noteText" class="text-gray-600 mb-4">
         Click the button to see notes
       </p>
 
-      <button
-        onclick="showNote()"
-        class="bg-gray-500 text-white px-8 py-2 rounded , border-2 border-[#121212]"
-      >
-        Open Note
-      </button>
+      <a href="todo.html">
+        <button
+          class="px-6 py-2 rounded-lg bg-gradient-to-b from-gray-700 to-gray-900 text-white font-medium shadow-md border border-gray-600 hover:from-gray-600 hover:to-gray-800 active:scale-95 transition-all duration-200"
+        >
+          Open Notes
+        </button>
+      </a>
     </div>
 
+    <br />
 
     <div class="bg-white rounded-lg shadow-md p-5 w-72">
-      <h2 class="text-xl font-bold mb-3 ">Todo List</h2>
+      <h2 class="text-xl font-bold mb-3">Todo List</h2>
 
       <p id="noteText" class="text-gray-600 mb-4">
         Click the button to see you List
       </p>
 
-       <button
-        id="time"
-        onclick="addTodo()"
-        class="bg-gray-500 text-white px-8 py-2 rounded , border-2 border-[#121212]"
-      >
-        Open Todo List
-      </button>
+      <a href="todo.html">
+        <button
+          class="px-6 py-2 rounded-lg bg-gradient-to-b from-gray-700 to-gray-900 text-white font-medium shadow-md border border-gray-600 hover:from-gray-600 hover:to-gray-800 active:scale-95 transition-all duration-200"
+        >
+          Open Todo List
+        </button>
+      </a>
     </div>
-
   </body>
 </html>
